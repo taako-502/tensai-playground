@@ -1,0 +1,4 @@
+github.com/ebitengine/purego v0.10.2 h1:W809HbnvzAxgdm+aOvlSekrM16wGCdT/e76+9tS7gzE=
+github.com/ebitengine/purego v0.10.2/go.mod h1:iIjxzd6CiRiOG0UyXP+V1+jWqUXVjPKLAI0mRfJZTmQ=
+github.com/mattn/tensai v0.0.26 h1:99iew6HT8ixTPlrw8Ce0ahPvaaFhB1Og5MCYanMF8aU=
+github.com/mattn/tensai v0.0.26/go.mod h1:QgtvMRNa1G4BxdrnTTz89dK4s68Ad460IgTU5R7tenM=
