@@ -41,6 +41,12 @@ make llm-run
 make llm-run PROMPT="GoでCQRSを採用する条件を説明してください"
 ```
 
+int8量子化して実行する場合：
+
+```bash
+make llm-run-q8 PROMPT="GoでCQRSを採用する条件を説明してください"
+```
+
 ローカルのGGUFモデルを指定する場合：
 
 ```bash
@@ -53,10 +59,22 @@ make llm-run MODEL=./models/model.gguf PROMPT="こんにちは"
 make llm-chat
 ```
 
+int8量子化して実行する場合：
+
+```bash
+make llm-chat-q8
+```
+
 ### OpenAI互換API
 
 ```bash
 make llm-serve
+```
+
+int8量子化して実行する場合：
+
+```bash
+make llm-serve-q8
 ```
 
 別のターミナルからリクエストします。
