@@ -4,7 +4,7 @@
 
 ## 必要な環境
 
-- Go 1.26以降
+- Go 1.27以降
 - ローカルLLMを実行する場合は数GB以上の空きストレージ
 
 ## 機械学習サンプル
@@ -28,20 +28,6 @@ XOR predictions
 学習結果にはわずかな誤差があるため、実際の数値は例と異なります。
 
 ## ローカルLLM
-
-LLMエンジンは`github.com/mattn/tensai/internal/llm`にあり、別モジュールから直接importできません。そのため、公式の`tensai`コマンドを使用します。
-
-### インストール
-
-```bash
-make install
-```
-
-`$(go env GOPATH)/bin`にPATHが通っていない場合は追加してください。
-
-```bash
-export PATH="$(go env GOPATH)/bin:$PATH"
-```
 
 ### 単発実行
 

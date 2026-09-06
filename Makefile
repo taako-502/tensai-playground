@@ -1,4 +1,4 @@
-.PHONY: install run-xor llm-run llm-chat llm-serve
+.PHONY: run-xor llm-run llm-chat llm-serve
 
 PROMPT ?= Goのinterfaceについて簡潔に説明してください
 MODEL ?=
