@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	tensai "github.com/mattn/tensai"
+	"github.com/mattn/tensai"
 	"github.com/mattn/tensai/layer"
 	"github.com/mattn/tensai/loss"
 	"github.com/mattn/tensai/model"
